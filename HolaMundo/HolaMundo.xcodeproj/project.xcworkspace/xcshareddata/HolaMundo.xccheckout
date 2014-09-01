@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6BF9B2B4-624D-414A-8949-FD57686C8D4D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HolaMundo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B05650FB-6718-4DF0-9AC9-CAB7CCB5AC95</key>
+		<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HolaMundo/HolaMundo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B05650FB-6718-4DF0-9AC9-CAB7CCB5AC95</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B05650FB-6718-4DF0-9AC9-CAB7CCB5AC95</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B05650FB-6718-4DF0-9AC9-CAB7CCB5AC95</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cluster-Medellin-Grupo-1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

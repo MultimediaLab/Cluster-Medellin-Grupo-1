@@ -22,6 +22,7 @@
 		F867F8C719B5270000E18B13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F867F8C519B5270000E18B13 /* InfoPlist.strings */; };
 		F867F8C919B5270000E18B13 /* iCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F867F8C819B5270000E18B13 /* iCalendarTests.m */; };
 		F867F8D419B5280100E18B13 /* CalendarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F867F8D319B5280100E18B13 /* CalendarioViewController.m */; };
+		F867F8D719B529E800E18B13 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F867F8D619B529E800E18B13 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F867F8C819B5270000E18B13 /* iCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalendarTests.m; sourceTree = "<group>"; };
 		F867F8D219B5280100E18B13 /* CalendarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarioViewController.h; path = ../CalendarioViewController.h; sourceTree = "<group>"; };
 		F867F8D319B5280100E18B13 /* CalendarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarioViewController.m; path = ../CalendarioViewController.m; sourceTree = "<group>"; };
+		F867F8D519B529E800E18B13 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F867F8D619B529E800E18B13 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		F867F89119B526FF00E18B13 = {
 			isa = PBXGroup;
 			children = (
+				F867F8D519B529E800E18B13 /* Model.h */,
+				F867F8D619B529E800E18B13 /* Model.m */,
 				F867F8A319B526FF00E18B13 /* iCalendar */,
 				F867F8C219B5270000E18B13 /* iCalendarTests */,
 				F867F89C19B526FF00E18B13 /* Frameworks */,
@@ -258,6 +263,7 @@
 				F867F8AE19B526FF00E18B13 /* AppDelegate.m in Sources */,
 				F867F8D419B5280100E18B13 /* CalendarioViewController.m in Sources */,
 				F867F8AA19B526FF00E18B13 /* main.m in Sources */,
+				F867F8D719B529E800E18B13 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +468,7 @@
 				F867F8CE19B5270000E18B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F867F8CF19B5270000E18B13 /* Build configuration list for PBXNativeTarget "iCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				F867F8D119B5270000E18B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
