@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F889E42519B131E9009711C7 /* informe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F889E42419B131E9009711C7 /* informe.pdf */; };
+		F889E42819B13569009711C7 /* AnimacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F889E42719B13569009711C7 /* AnimacionesViewController.m */; };
+		F8CC6E4C19AEB09700F70058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC6E4B19AEB09600F70058 /* Foundation.framework */; };
+		F8CC6E4E19AEB09700F70058 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC6E4D19AEB09700F70058 /* CoreGraphics.framework */; };
+		F8CC6E5019AEB09700F70058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC6E4F19AEB09700F70058 /* UIKit.framework */; };
+		F8CC6E5619AEB09700F70058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8CC6E5419AEB09700F70058 /* InfoPlist.strings */; };
+		F8CC6E5819AEB09700F70058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC6E5719AEB09700F70058 /* main.m */; };
+		F8CC6E5C19AEB09700F70058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC6E5B19AEB09700F70058 /* AppDelegate.m */; };
+		F8CC6E5F19AEB09700F70058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CC6E5D19AEB09700F70058 /* Main.storyboard */; };
+		F8CC6E6219AEB09700F70058 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC6E6119AEB09700F70058 /* ViewController.m */; };
+		F8CC6E6419AEB09700F70058 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CC6E6319AEB09700F70058 /* Images.xcassets */; };
+		F8CC6E6B19AEB09700F70058 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC6E6A19AEB09700F70058 /* XCTest.framework */; };
+		F8CC6E6C19AEB09700F70058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC6E4B19AEB09600F70058 /* Foundation.framework */; };
+		F8CC6E6D19AEB09700F70058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC6E4F19AEB09700F70058 /* UIKit.framework */; };
+		F8CC6E7519AEB09700F70058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8CC6E7319AEB09700F70058 /* InfoPlist.strings */; };
+		F8CC6E7719AEB09700F70058 /* Animaciones_Picker_NavegadorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC6E7619AEB09700F70058 /* Animaciones_Picker_NavegadorTests.m */; };
+		F8CC6E8219AEB1CB00F70058 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC6E8119AEB1CB00F70058 /* PickerViewController.m */; };
+		F8CC6E8419AEB34500F70058 /* paises.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8CC6E8319AEB34500F70058 /* paises.plist */; };
+		F8CC6E8719AEBC1200F70058 /* NavegadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC6E8619AEBC1200F70058 /* NavegadorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8CC6E6E19AEB09700F70058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CC6E4019AEB09600F70058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CC6E4719AEB09600F70058;
+			remoteInfo = Animaciones_Picker_Navegador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F889E42419B131E9009711C7 /* informe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = informe.pdf; sourceTree = "<group>"; };
+		F889E42619B13569009711C7 /* AnimacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimacionesViewController.h; sourceTree = "<group>"; };
+		F889E42719B13569009711C7 /* AnimacionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimacionesViewController.m; sourceTree = "<group>"; };
+		F8CC6E4819AEB09600F70058 /* Animaciones_Picker_Navegador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animaciones_Picker_Navegador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC6E4B19AEB09600F70058 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8CC6E4D19AEB09700F70058 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8CC6E4F19AEB09700F70058 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8CC6E5319AEB09700F70058 /* Animaciones_Picker_Navegador-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animaciones_Picker_Navegador-Info.plist"; sourceTree = "<group>"; };
+		F8CC6E5519AEB09700F70058 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8CC6E5719AEB09700F70058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8CC6E5919AEB09700F70058 /* Animaciones_Picker_Navegador-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animaciones_Picker_Navegador-Prefix.pch"; sourceTree = "<group>"; };
+		F8CC6E5A19AEB09700F70058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8CC6E5B19AEB09700F70058 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8CC6E5E19AEB09700F70058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8CC6E6019AEB09700F70058 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8CC6E6119AEB09700F70058 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8CC6E6319AEB09700F70058 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8CC6E6919AEB09700F70058 /* Animaciones_Picker_NavegadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animaciones_Picker_NavegadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC6E6A19AEB09700F70058 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8CC6E7219AEB09700F70058 /* Animaciones_Picker_NavegadorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animaciones_Picker_NavegadorTests-Info.plist"; sourceTree = "<group>"; };
+		F8CC6E7419AEB09700F70058 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8CC6E7619AEB09700F70058 /* Animaciones_Picker_NavegadorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animaciones_Picker_NavegadorTests.m; sourceTree = "<group>"; };
+		F8CC6E8019AEB1CB00F70058 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = ../PickerViewController.h; sourceTree = "<group>"; };
+		F8CC6E8119AEB1CB00F70058 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = ../PickerViewController.m; sourceTree = "<group>"; };
+		F8CC6E8319AEB34500F70058 /* paises.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = paises.plist; sourceTree = "<group>"; };
+		F8CC6E8519AEBC1200F70058 /* NavegadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavegadorViewController.h; path = ../NavegadorViewController.h; sourceTree = "<group>"; };
+		F8CC6E8619AEBC1200F70058 /* NavegadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavegadorViewController.m; path = ../NavegadorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8CC6E4519AEB09600F70058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC6E4E19AEB09700F70058 /* CoreGraphics.framework in Frameworks */,
+				F8CC6E5019AEB09700F70058 /* UIKit.framework in Frameworks */,
+				F8CC6E4C19AEB09700F70058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC6E6619AEB09700F70058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC6E6B19AEB09700F70058 /* XCTest.framework in Frameworks */,
+				F8CC6E6D19AEB09700F70058 /* UIKit.framework in Frameworks */,
+				F8CC6E6C19AEB09700F70058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8CC6E3F19AEB09600F70058 = {
+			isa = PBXGroup;
+			children = (
+				F889E42619B13569009711C7 /* AnimacionesViewController.h */,
+				F889E42719B13569009711C7 /* AnimacionesViewController.m */,
+				F889E42419B131E9009711C7 /* informe.pdf */,
+				F8CC6E8319AEB34500F70058 /* paises.plist */,
+				F8CC6E5119AEB09700F70058 /* Animaciones_Picker_Navegador */,
+				F8CC6E7019AEB09700F70058 /* Animaciones_Picker_NavegadorTests */,
+				F8CC6E4A19AEB09600F70058 /* Frameworks */,
+				F8CC6E4919AEB09600F70058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CC6E4919AEB09600F70058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC6E4819AEB09600F70058 /* Animaciones_Picker_Navegador.app */,
+				F8CC6E6919AEB09700F70058 /* Animaciones_Picker_NavegadorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8CC6E4A19AEB09600F70058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC6E4B19AEB09600F70058 /* Foundation.framework */,
+				F8CC6E4D19AEB09700F70058 /* CoreGraphics.framework */,
+				F8CC6E4F19AEB09700F70058 /* UIKit.framework */,
+				F8CC6E6A19AEB09700F70058 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8CC6E5119AEB09700F70058 /* Animaciones_Picker_Navegador */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC6E5A19AEB09700F70058 /* AppDelegate.h */,
+				F8CC6E5B19AEB09700F70058 /* AppDelegate.m */,
+				F8CC6E5D19AEB09700F70058 /* Main.storyboard */,
+				F8CC6E6019AEB09700F70058 /* ViewController.h */,
+				F8CC6E6119AEB09700F70058 /* ViewController.m */,
+				F8CC6E8519AEBC1200F70058 /* NavegadorViewController.h */,
+				F8CC6E8619AEBC1200F70058 /* NavegadorViewController.m */,
+				F8CC6E8019AEB1CB00F70058 /* PickerViewController.h */,
+				F8CC6E8119AEB1CB00F70058 /* PickerViewController.m */,
+				F8CC6E6319AEB09700F70058 /* Images.xcassets */,
+				F8CC6E5219AEB09700F70058 /* Supporting Files */,
+			);
+			path = Animaciones_Picker_Navegador;
+			sourceTree = "<group>";
+		};
+		F8CC6E5219AEB09700F70058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC6E5319AEB09700F70058 /* Animaciones_Picker_Navegador-Info.plist */,
+				F8CC6E5419AEB09700F70058 /* InfoPlist.strings */,
+				F8CC6E5719AEB09700F70058 /* main.m */,
+				F8CC6E5919AEB09700F70058 /* Animaciones_Picker_Navegador-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8CC6E7019AEB09700F70058 /* Animaciones_Picker_NavegadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC6E7619AEB09700F70058 /* Animaciones_Picker_NavegadorTests.m */,
+				F8CC6E7119AEB09700F70058 /* Supporting Files */,
+			);
+			path = Animaciones_Picker_NavegadorTests;
+			sourceTree = "<group>";
+		};
+		F8CC6E7119AEB09700F70058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC6E7219AEB09700F70058 /* Animaciones_Picker_NavegadorTests-Info.plist */,
+				F8CC6E7319AEB09700F70058 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8CC6E4719AEB09600F70058 /* Animaciones_Picker_Navegador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC6E7A19AEB09700F70058 /* Build configuration list for PBXNativeTarget "Animaciones_Picker_Navegador" */;
+			buildPhases = (
+				F8CC6E4419AEB09600F70058 /* Sources */,
+				F8CC6E4519AEB09600F70058 /* Frameworks */,
+				F8CC6E4619AEB09600F70058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animaciones_Picker_Navegador;
+			productName = Animaciones_Picker_Navegador;
+			productReference = F8CC6E4819AEB09600F70058 /* Animaciones_Picker_Navegador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8CC6E6819AEB09700F70058 /* Animaciones_Picker_NavegadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC6E7D19AEB09700F70058 /* Build configuration list for PBXNativeTarget "Animaciones_Picker_NavegadorTests" */;
+			buildPhases = (
+				F8CC6E6519AEB09700F70058 /* Sources */,
+				F8CC6E6619AEB09700F70058 /* Frameworks */,
+				F8CC6E6719AEB09700F70058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CC6E6F19AEB09700F70058 /* PBXTargetDependency */,
+			);
+			name = Animaciones_Picker_NavegadorTests;
+			productName = Animaciones_Picker_NavegadorTests;
+			productReference = F8CC6E6919AEB09700F70058 /* Animaciones_Picker_NavegadorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8CC6E4019AEB09600F70058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F8CC6E6819AEB09700F70058 = {
+						TestTargetID = F8CC6E4719AEB09600F70058;
+					};
+				};
+			};
+			buildConfigurationList = F8CC6E4319AEB09600F70058 /* Build configuration list for PBXProject "Animaciones_Picker_Navegador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8CC6E3F19AEB09600F70058;
+			productRefGroup = F8CC6E4919AEB09600F70058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8CC6E4719AEB09600F70058 /* Animaciones_Picker_Navegador */,
+				F8CC6E6819AEB09700F70058 /* Animaciones_Picker_NavegadorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8CC6E4619AEB09600F70058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC6E6419AEB09700F70058 /* Images.xcassets in Resources */,
+				F8CC6E5619AEB09700F70058 /* InfoPlist.strings in Resources */,
+				F889E42519B131E9009711C7 /* informe.pdf in Resources */,
+				F8CC6E5F19AEB09700F70058 /* Main.storyboard in Resources */,
+				F8CC6E8419AEB34500F70058 /* paises.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC6E6719AEB09700F70058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC6E7519AEB09700F70058 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8CC6E4419AEB09600F70058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F889E42819B13569009711C7 /* AnimacionesViewController.m in Sources */,
+				F8CC6E6219AEB09700F70058 /* ViewController.m in Sources */,
+				F8CC6E5C19AEB09700F70058 /* AppDelegate.m in Sources */,
+				F8CC6E8219AEB1CB00F70058 /* PickerViewController.m in Sources */,
+				F8CC6E8719AEBC1200F70058 /* NavegadorViewController.m in Sources */,
+				F8CC6E5819AEB09700F70058 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC6E6519AEB09700F70058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC6E7719AEB09700F70058 /* Animaciones_Picker_NavegadorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8CC6E6F19AEB09700F70058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CC6E4719AEB09600F70058 /* Animaciones_Picker_Navegador */;
+			targetProxy = F8CC6E6E19AEB09700F70058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8CC6E5419AEB09700F70058 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CC6E5519AEB09700F70058 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8CC6E5D19AEB09700F70058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CC6E5E19AEB09700F70058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8CC6E7319AEB09700F70058 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CC6E7419AEB09700F70058 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8CC6E7819AEB09700F70058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8CC6E7919AEB09700F70058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CC6E7B19AEB09700F70058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animaciones_Picker_Navegador/Animaciones_Picker_Navegador-Prefix.pch";
+				INFOPLIST_FILE = "Animaciones_Picker_Navegador/Animaciones_Picker_Navegador-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8CC6E7C19AEB09700F70058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animaciones_Picker_Navegador/Animaciones_Picker_Navegador-Prefix.pch";
+				INFOPLIST_FILE = "Animaciones_Picker_Navegador/Animaciones_Picker_Navegador-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8CC6E7E19AEB09700F70058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animaciones_Picker_Navegador.app/Animaciones_Picker_Navegador";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animaciones_Picker_Navegador/Animaciones_Picker_Navegador-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Animaciones_Picker_NavegadorTests/Animaciones_Picker_NavegadorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8CC6E7F19AEB09700F70058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animaciones_Picker_Navegador.app/Animaciones_Picker_Navegador";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animaciones_Picker_Navegador/Animaciones_Picker_Navegador-Prefix.pch";
+				INFOPLIST_FILE = "Animaciones_Picker_NavegadorTests/Animaciones_Picker_NavegadorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8CC6E4319AEB09600F70058 /* Build configuration list for PBXProject "Animaciones_Picker_Navegador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC6E7819AEB09700F70058 /* Debug */,
+				F8CC6E7919AEB09700F70058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CC6E7A19AEB09700F70058 /* Build configuration list for PBXNativeTarget "Animaciones_Picker_Navegador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC6E7B19AEB09700F70058 /* Debug */,
+				F8CC6E7C19AEB09700F70058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CC6E7D19AEB09700F70058 /* Build configuration list for PBXNativeTarget "Animaciones_Picker_NavegadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC6E7E19AEB09700F70058 /* Debug */,
+				F8CC6E7F19AEB09700F70058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8CC6E4019AEB09600F70058 /* Project object */;
+}

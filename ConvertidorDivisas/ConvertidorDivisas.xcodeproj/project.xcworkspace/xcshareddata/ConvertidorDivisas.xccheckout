@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16BAEC25-1CB6-4610-9A37-237D2D808C1E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ConvertidorDivisas</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>07DC1FEA-2F60-4EB5-A5F0-F7087DC7789D</key>
+		<string>https://github.com/MultimediaLab/Cluster-Medellin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Grupo1/ConvertidorDivisas/ConvertidorDivisas.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>07DC1FEA-2F60-4EB5-A5F0-F7087DC7789D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MultimediaLab/Cluster-Medellin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>07DC1FEA-2F60-4EB5-A5F0-F7087DC7789D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07DC1FEA-2F60-4EB5-A5F0-F7087DC7789D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cluster-Medellin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
