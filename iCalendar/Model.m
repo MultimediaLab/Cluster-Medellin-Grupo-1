@@ -19,6 +19,7 @@
     if (self) {
         _pageData = [NSArray arrayWithObjects:@"Enero", @"Febrero",@"Marzo", @"Abril", @"Mayo", @"Junio", @"Julio", @"Agosto", @"Septiembre", @"Octubre", @"Noviembre", @"Diciembre", nil];
     }
+    NSLog(@"%@",_pageData);
     return self;
 }
 
