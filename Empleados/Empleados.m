@@ -17,9 +17,14 @@
 
 @implementation Empleados
 
--(void)createDatabaseInDocuments{
+-(void)searchPathDatabase{
     NSString * rutaDoc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     _databasePath = [[NSString alloc] initWithString:[rutaDoc stringByAppendingPathComponent:@"empleados.db"]];
+}
+
+-(void)createDatabaseInDocuments{
+   
+    [self searchPathDatabase];
     
     NSFileManager * fm = [[NSFileManager alloc] init];
     NSLog(@"%@", _databasePath);
@@ -46,6 +51,57 @@
     }
 }
 -(void)searchEmployedInDataBasebyId:(NSString*)cedula{
-
+    [self searchPathDatabase];
+    const char* db = [_databasePath UTF8String];
+    sqlite3_stmt * query;
+    if (sqlite3_open(db, &empleadosdb)==SQLITE_OK) {
+        NSString * select = [NSString stringWithFormat:@"SELECT * FROM EMPLOYESS WHERE EMP_CEDULA = \"%@\"", cedula ];
+        const char * select_sql = [select UTF8String];
+        
+        if (sqlite3_prepare_v2(empleadosdb, select_sql, -1, &query, NULL)==SQLITE_OK) {
+            if (sqlite3_step(query)==SQLITE_ROW) {
+                _status= @"Registro Encontrado";
+                _empId = [NSString stringWithFormat:@"%s", sqlite3_column_text(query, 0)];
+                _empCedula = [NSString stringWithFormat:@"%s", sqlite3_column_text(query, 1)];
+                _empName = [NSString stringWithFormat:@"%s", sqlite3_column_text(query, 2)];
+                _empAge = [NSString stringWithFormat:@"%s", sqlite3_column_text(query, 3)];
+                _empAdress = [NSString stringWithFormat:@"%s", sqlite3_column_text(query, 4)];
+            }else{
+                _status =@"Registro no encontrado";
+            }
+        }else{
+            _status =@"Error en el query";
+        }
+        sqlite3_finalize(query);
+        sqlite3_close(empleadosdb);
+    }else{
+        _status = @"No se pudo abrir la base de datos";
+    }
 }
+-(void)createEmployedInDataBase{
+    [self searchPathDatabase];
+    sqlite3_stmt * query;
+    const char * db = [_databasePath UTF8String];
+    if (sqlite3_open(db, &empleadosdb)==SQLITE_OK) {
+        
+        NSString * insert = [NSString stringWithFormat:@"INSERT INTO EMPLOYESS (EMP_CEDULA, EMP_NAME, EMP_AGE, EMP_ADRESS) VALUES(\"%@\",\"%@\",\"%@\",\"%@\")", _empCedula, _empName, _empAge, _empAdress];
+        
+        
+        
+        const char * insert_sql = [insert UTF8String];
+        sqlite3_prepare_v2(empleadosdb, insert_sql, -1, &query, NULL);
+        if (sqlite3_step(query)==SQLITE_DONE) {
+            _status = @"Registro Almacenado";
+        }else{
+            _status = @"Registro No Almacenado";
+        }
+        sqlite3_finalize(query);
+        sqlite3_close(empleadosdb);
+    }else{
+        _status = @"No se pudo abrir la base de datos";
+    }
+}
+
+
+
 @end

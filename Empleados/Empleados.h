@@ -25,5 +25,7 @@
 
 -(void)createDatabaseInDocuments;
 -(void)searchEmployedInDataBasebyId:(NSString*)cedula;
+-(void)createEmployedInDataBase;
+
 
 @end

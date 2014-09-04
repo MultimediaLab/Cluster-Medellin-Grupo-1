@@ -23,6 +23,8 @@
 		F833724919B546A000CB756A /* EmpleadosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F833724819B546A000CB756A /* EmpleadosTests.m */; };
 		F833725419B54A7100CB756A /* Empleados.m in Sources */ = {isa = PBXBuildFile; fileRef = F833725319B54A7100CB756A /* Empleados.m */; };
 		F833725619B54AD400CB756A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F833725519B54AD400CB756A /* libsqlite3.dylib */; };
+		F840C18719B7D12F00DBCB8F /* BuscarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F840C18619B7D12F00DBCB8F /* BuscarViewController.m */; };
+		F840C18A19B7DD1C00DBCB8F /* InsertarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F840C18919B7DD1C00DBCB8F /* InsertarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		F833725219B54A7100CB756A /* Empleados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empleados.h; sourceTree = "<group>"; };
 		F833725319B54A7100CB756A /* Empleados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empleados.m; sourceTree = "<group>"; };
 		F833725519B54AD400CB756A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F840C18519B7D12F00DBCB8F /* BuscarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuscarViewController.h; sourceTree = "<group>"; };
+		F840C18619B7D12F00DBCB8F /* BuscarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuscarViewController.m; sourceTree = "<group>"; };
+		F840C18819B7DD1C00DBCB8F /* InsertarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertarViewController.h; sourceTree = "<group>"; };
+		F840C18919B7DD1C00DBCB8F /* InsertarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 		F833721119B5469F00CB756A = {
 			isa = PBXGroup;
 			children = (
+				F840C18819B7DD1C00DBCB8F /* InsertarViewController.h */,
+				F840C18919B7DD1C00DBCB8F /* InsertarViewController.m */,
+				F840C18519B7D12F00DBCB8F /* BuscarViewController.h */,
+				F840C18619B7D12F00DBCB8F /* BuscarViewController.m */,
 				F833725219B54A7100CB756A /* Empleados.h */,
 				F833725319B54A7100CB756A /* Empleados.m */,
 				F833722319B5469F00CB756A /* Empleados */,
@@ -260,8 +270,10 @@
 			files = (
 				F833725419B54A7100CB756A /* Empleados.m in Sources */,
 				F833723419B5469F00CB756A /* ViewController.m in Sources */,
+				F840C18A19B7DD1C00DBCB8F /* InsertarViewController.m in Sources */,
 				F833722E19B5469F00CB756A /* AppDelegate.m in Sources */,
 				F833722A19B5469F00CB756A /* main.m in Sources */,
+				F840C18719B7D12F00DBCB8F /* BuscarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +478,7 @@
 				F833724E19B546A000CB756A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F833724F19B546A000CB756A /* Build configuration list for PBXNativeTarget "EmpleadosTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +487,7 @@
 				F833725119B546A000CB756A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
