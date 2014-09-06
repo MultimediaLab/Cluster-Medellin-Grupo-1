@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F8139DB719BA7BDD0073B9B4 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F8139DB619BA7BDD0073B9B4 /* MapPoint.m */; };
+		F8139DB919BA91700073B9B4 /* FlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8139DB819BA91700073B9B4 /* FlagView.xib */; };
+		F8139DBB19BA921F0073B9B4 /* green_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = F8139DBA19BA921F0073B9B4 /* green_flag.png */; };
+		F8139DBE19BA93180073B9B4 /* FlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8139DBD19BA93180073B9B4 /* FlagView.m */; };
 		F8B4A7CA19BA7B1C00B0A124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B4A7C919BA7B1C00B0A124 /* Foundation.framework */; };
 		F8B4A7CC19BA7B1C00B0A124 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B4A7CB19BA7B1C00B0A124 /* CoreGraphics.framework */; };
 		F8B4A7CE19BA7B1C00B0A124 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B4A7CD19BA7B1C00B0A124 /* UIKit.framework */; };
@@ -39,6 +42,10 @@
 /* Begin PBXFileReference section */
 		F8139DB519BA7BDD0073B9B4 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
 		F8139DB619BA7BDD0073B9B4 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		F8139DB819BA91700073B9B4 /* FlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlagView.xib; sourceTree = "<group>"; };
+		F8139DBA19BA921F0073B9B4 /* green_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_flag.png; sourceTree = "<group>"; };
+		F8139DBC19BA93180073B9B4 /* FlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagView.h; sourceTree = "<group>"; };
+		F8139DBD19BA93180073B9B4 /* FlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagView.m; sourceTree = "<group>"; };
 		F8B4A7C619BA7B1C00B0A124 /* Mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B4A7C919BA7B1C00B0A124 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8B4A7CB19BA7B1C00B0A124 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +98,10 @@
 		F8B4A7BD19BA7B1C00B0A124 = {
 			isa = PBXGroup;
 			children = (
+				F8139DBC19BA93180073B9B4 /* FlagView.h */,
+				F8139DBD19BA93180073B9B4 /* FlagView.m */,
+				F8139DBA19BA921F0073B9B4 /* green_flag.png */,
+				F8139DB819BA91700073B9B4 /* FlagView.xib */,
 				F8139DB519BA7BDD0073B9B4 /* MapPoint.h */,
 				F8139DB619BA7BDD0073B9B4 /* MapPoint.m */,
 				F8B4A7CF19BA7B1C00B0A124 /* Mapas */,
@@ -243,6 +254,8 @@
 			files = (
 				F8B4A7E219BA7B1C00B0A124 /* Images.xcassets in Resources */,
 				F8B4A7D419BA7B1C00B0A124 /* InfoPlist.strings in Resources */,
+				F8139DB919BA91700073B9B4 /* FlagView.xib in Resources */,
+				F8139DBB19BA921F0073B9B4 /* green_flag.png in Resources */,
 				F8B4A7DD19BA7B1C00B0A124 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +277,7 @@
 			files = (
 				F8B4A7E019BA7B1C00B0A124 /* ViewController.m in Sources */,
 				F8139DB719BA7BDD0073B9B4 /* MapPoint.m in Sources */,
+				F8139DBE19BA93180073B9B4 /* FlagView.m in Sources */,
 				F8B4A7DA19BA7B1C00B0A124 /* AppDelegate.m in Sources */,
 				F8B4A7D619BA7B1C00B0A124 /* main.m in Sources */,
 			);

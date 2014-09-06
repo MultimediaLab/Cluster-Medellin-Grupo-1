@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FlagView.h"
 
 
 @interface ViewController ()
@@ -36,6 +37,25 @@
     [_worldView setRegion:region animated:YES];
 
 }
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+
+//    NSLog(@"%@", locations);
+    CLLocation * newLocation = [locations lastObject];
+    MapPoint * ruta = [[MapPoint alloc] initWithCoordinate:[newLocation coordinate] title:@"Corriendo"];
+    [_worldView addAnnotation:ruta];
+    
+
+}
+
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
+    
+    FlagView * flag = [[[NSBundle mainBundle] loadNibNamed:@"FlagView" owner:self options:nil] objectAtIndex:0];
+    
+    flag.centerOffset = CGPointMake(flag.frame.size.width/2, -flag.frame.size.height/2);
+
+    return flag;
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -44,5 +64,17 @@
 }
 
 - (IBAction)changeMap:(id)sender {
+    int index = [sender selectedSegmentIndex];
+    switch (index) {
+        case 0:
+            [_worldView setMapType:MKMapTypeStandard];
+            break;
+        case 1:
+            [_worldView setMapType:MKMapTypeSatellite];
+            break;
+        case 2:
+            [_worldView setMapType:MKMapTypeHybrid];
+            break;
+    }
 }
 @end
