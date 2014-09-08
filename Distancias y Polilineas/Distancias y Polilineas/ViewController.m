@@ -30,6 +30,29 @@
     
     [_mapView addAnnotations:[NSArray arrayWithObjects:poliPoint, casaPoint, nil]];
     
+    //Calcular Distancia
+    CLLocationDistance distancia = [poli distanceFromLocation:casa];
+    UIAlertView * alerta = [[UIAlertView alloc]initWithTitle:@"Distancia" message:[NSString stringWithFormat:@"La distancia es de : %.02f km", distancia/1000] delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+    [alerta show];
+    
+    
+    
+    //Linea
+    MKMapPoint * points = malloc(sizeof(CLLocationCoordinate2D)*2);
+    points[0]=MKMapPointForCoordinate([poli coordinate]);
+    points[1]=MKMapPointForCoordinate([casa coordinate]);
+    linea = [MKPolyline polylineWithPoints:points count:2];
+    
+    [_mapView addOverlay:linea];
+}
+
+-(MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay{
+    
+    MKPolylineRenderer * rutaRender = [[MKPolylineRenderer alloc] initWithPolyline:overlay];
+    rutaRender.strokeColor = [UIColor blueColor];
+    rutaRender.lineWidth = 1;
+    rutaRender.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInt:4],[NSNumber numberWithInt:5], nil];
+    return rutaRender;
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
