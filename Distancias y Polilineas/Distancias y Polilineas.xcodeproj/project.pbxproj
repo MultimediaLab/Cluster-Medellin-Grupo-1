@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F860495019BE612E007337B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860494F19BE612E007337B3 /* Foundation.framework */; };
+		F860495219BE612E007337B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860495119BE612E007337B3 /* CoreGraphics.framework */; };
+		F860495419BE612E007337B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860495319BE612E007337B3 /* UIKit.framework */; };
+		F860495A19BE612E007337B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F860495819BE612E007337B3 /* InfoPlist.strings */; };
+		F860495C19BE612E007337B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F860495B19BE612E007337B3 /* main.m */; };
+		F860496019BE612E007337B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F860495F19BE612E007337B3 /* AppDelegate.m */; };
+		F860496319BE612E007337B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F860496119BE612E007337B3 /* Main.storyboard */; };
+		F860496619BE612E007337B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F860496519BE612E007337B3 /* ViewController.m */; };
+		F860496819BE612E007337B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F860496719BE612E007337B3 /* Images.xcassets */; };
+		F860496F19BE612E007337B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860496E19BE612E007337B3 /* XCTest.framework */; };
+		F860497019BE612E007337B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860494F19BE612E007337B3 /* Foundation.framework */; };
+		F860497119BE612E007337B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860495319BE612E007337B3 /* UIKit.framework */; };
+		F860497919BE612E007337B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F860497719BE612E007337B3 /* InfoPlist.strings */; };
+		F860497B19BE612E007337B3 /* Distancias_y_PolilineasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F860497A19BE612E007337B3 /* Distancias_y_PolilineasTests.m */; };
+		F860498519BE613F007337B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860498419BE613F007337B3 /* MapKit.framework */; };
+		F860498719BE6146007337B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860498619BE6146007337B3 /* CoreLocation.framework */; };
+		F860498A19BE624D007337B3 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F860498919BE624D007337B3 /* MapPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F860497219BE612E007337B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F860494419BE612E007337B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F860494B19BE612E007337B3;
+			remoteInfo = "Distancias y Polilineas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F860494C19BE612E007337B3 /* Distancias y Polilineas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distancias y Polilineas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F860494F19BE612E007337B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F860495119BE612E007337B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F860495319BE612E007337B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F860495719BE612E007337B3 /* Distancias y Polilineas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Distancias y Polilineas-Info.plist"; sourceTree = "<group>"; };
+		F860495919BE612E007337B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F860495B19BE612E007337B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F860495D19BE612E007337B3 /* Distancias y Polilineas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Distancias y Polilineas-Prefix.pch"; sourceTree = "<group>"; };
+		F860495E19BE612E007337B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F860495F19BE612E007337B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F860496219BE612E007337B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F860496419BE612E007337B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F860496519BE612E007337B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F860496719BE612E007337B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F860496D19BE612E007337B3 /* Distancias y PolilineasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Distancias y PolilineasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F860496E19BE612E007337B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F860497619BE612E007337B3 /* Distancias y PolilineasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Distancias y PolilineasTests-Info.plist"; sourceTree = "<group>"; };
+		F860497819BE612E007337B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F860497A19BE612E007337B3 /* Distancias_y_PolilineasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Distancias_y_PolilineasTests.m; sourceTree = "<group>"; };
+		F860498419BE613F007337B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F860498619BE6146007337B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F860498819BE624D007337B3 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		F860498919BE624D007337B3 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F860494919BE612E007337B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860498719BE6146007337B3 /* CoreLocation.framework in Frameworks */,
+				F860498519BE613F007337B3 /* MapKit.framework in Frameworks */,
+				F860495219BE612E007337B3 /* CoreGraphics.framework in Frameworks */,
+				F860495419BE612E007337B3 /* UIKit.framework in Frameworks */,
+				F860495019BE612E007337B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F860496A19BE612E007337B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860496F19BE612E007337B3 /* XCTest.framework in Frameworks */,
+				F860497119BE612E007337B3 /* UIKit.framework in Frameworks */,
+				F860497019BE612E007337B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F860494319BE612E007337B3 = {
+			isa = PBXGroup;
+			children = (
+				F860498819BE624D007337B3 /* MapPoint.h */,
+				F860498919BE624D007337B3 /* MapPoint.m */,
+				F860495519BE612E007337B3 /* Distancias y Polilineas */,
+				F860497419BE612E007337B3 /* Distancias y PolilineasTests */,
+				F860494E19BE612E007337B3 /* Frameworks */,
+				F860494D19BE612E007337B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F860494D19BE612E007337B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F860494C19BE612E007337B3 /* Distancias y Polilineas.app */,
+				F860496D19BE612E007337B3 /* Distancias y PolilineasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F860494E19BE612E007337B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F860498619BE6146007337B3 /* CoreLocation.framework */,
+				F860498419BE613F007337B3 /* MapKit.framework */,
+				F860494F19BE612E007337B3 /* Foundation.framework */,
+				F860495119BE612E007337B3 /* CoreGraphics.framework */,
+				F860495319BE612E007337B3 /* UIKit.framework */,
+				F860496E19BE612E007337B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F860495519BE612E007337B3 /* Distancias y Polilineas */ = {
+			isa = PBXGroup;
+			children = (
+				F860495E19BE612E007337B3 /* AppDelegate.h */,
+				F860495F19BE612E007337B3 /* AppDelegate.m */,
+				F860496119BE612E007337B3 /* Main.storyboard */,
+				F860496419BE612E007337B3 /* ViewController.h */,
+				F860496519BE612E007337B3 /* ViewController.m */,
+				F860496719BE612E007337B3 /* Images.xcassets */,
+				F860495619BE612E007337B3 /* Supporting Files */,
+			);
+			path = "Distancias y Polilineas";
+			sourceTree = "<group>";
+		};
+		F860495619BE612E007337B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F860495719BE612E007337B3 /* Distancias y Polilineas-Info.plist */,
+				F860495819BE612E007337B3 /* InfoPlist.strings */,
+				F860495B19BE612E007337B3 /* main.m */,
+				F860495D19BE612E007337B3 /* Distancias y Polilineas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F860497419BE612E007337B3 /* Distancias y PolilineasTests */ = {
+			isa = PBXGroup;
+			children = (
+				F860497A19BE612E007337B3 /* Distancias_y_PolilineasTests.m */,
+				F860497519BE612E007337B3 /* Supporting Files */,
+			);
+			path = "Distancias y PolilineasTests";
+			sourceTree = "<group>";
+		};
+		F860497519BE612E007337B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F860497619BE612E007337B3 /* Distancias y PolilineasTests-Info.plist */,
+				F860497719BE612E007337B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F860494B19BE612E007337B3 /* Distancias y Polilineas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F860497E19BE612E007337B3 /* Build configuration list for PBXNativeTarget "Distancias y Polilineas" */;
+			buildPhases = (
+				F860494819BE612E007337B3 /* Sources */,
+				F860494919BE612E007337B3 /* Frameworks */,
+				F860494A19BE612E007337B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distancias y Polilineas";
+			productName = "Distancias y Polilineas";
+			productReference = F860494C19BE612E007337B3 /* Distancias y Polilineas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F860496C19BE612E007337B3 /* Distancias y PolilineasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F860498119BE612E007337B3 /* Build configuration list for PBXNativeTarget "Distancias y PolilineasTests" */;
+			buildPhases = (
+				F860496919BE612E007337B3 /* Sources */,
+				F860496A19BE612E007337B3 /* Frameworks */,
+				F860496B19BE612E007337B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F860497319BE612E007337B3 /* PBXTargetDependency */,
+			);
+			name = "Distancias y PolilineasTests";
+			productName = "Distancias y PolilineasTests";
+			productReference = F860496D19BE612E007337B3 /* Distancias y PolilineasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F860494419BE612E007337B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F860496C19BE612E007337B3 = {
+						TestTargetID = F860494B19BE612E007337B3;
+					};
+				};
+			};
+			buildConfigurationList = F860494719BE612E007337B3 /* Build configuration list for PBXProject "Distancias y Polilineas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F860494319BE612E007337B3;
+			productRefGroup = F860494D19BE612E007337B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F860494B19BE612E007337B3 /* Distancias y Polilineas */,
+				F860496C19BE612E007337B3 /* Distancias y PolilineasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F860494A19BE612E007337B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860496819BE612E007337B3 /* Images.xcassets in Resources */,
+				F860495A19BE612E007337B3 /* InfoPlist.strings in Resources */,
+				F860496319BE612E007337B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F860496B19BE612E007337B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860497919BE612E007337B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F860494819BE612E007337B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860496619BE612E007337B3 /* ViewController.m in Sources */,
+				F860498A19BE624D007337B3 /* MapPoint.m in Sources */,
+				F860496019BE612E007337B3 /* AppDelegate.m in Sources */,
+				F860495C19BE612E007337B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F860496919BE612E007337B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860497B19BE612E007337B3 /* Distancias_y_PolilineasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F860497319BE612E007337B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F860494B19BE612E007337B3 /* Distancias y Polilineas */;
+			targetProxy = F860497219BE612E007337B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F860495819BE612E007337B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F860495919BE612E007337B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F860496119BE612E007337B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F860496219BE612E007337B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F860497719BE612E007337B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F860497819BE612E007337B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F860497C19BE612E007337B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F860497D19BE612E007337B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F860497F19BE612E007337B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distancias y Polilineas/Distancias y Polilineas-Prefix.pch";
+				INFOPLIST_FILE = "Distancias y Polilineas/Distancias y Polilineas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F860498019BE612E007337B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distancias y Polilineas/Distancias y Polilineas-Prefix.pch";
+				INFOPLIST_FILE = "Distancias y Polilineas/Distancias y Polilineas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F860498219BE612E007337B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Distancias y Polilineas.app/Distancias y Polilineas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distancias y Polilineas/Distancias y Polilineas-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Distancias y PolilineasTests/Distancias y PolilineasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F860498319BE612E007337B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Distancias y Polilineas.app/Distancias y Polilineas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distancias y Polilineas/Distancias y Polilineas-Prefix.pch";
+				INFOPLIST_FILE = "Distancias y PolilineasTests/Distancias y PolilineasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F860494719BE612E007337B3 /* Build configuration list for PBXProject "Distancias y Polilineas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F860497C19BE612E007337B3 /* Debug */,
+				F860497D19BE612E007337B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F860497E19BE612E007337B3 /* Build configuration list for PBXNativeTarget "Distancias y Polilineas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F860497F19BE612E007337B3 /* Debug */,
+				F860498019BE612E007337B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F860498119BE612E007337B3 /* Build configuration list for PBXNativeTarget "Distancias y PolilineasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F860498219BE612E007337B3 /* Debug */,
+				F860498319BE612E007337B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F860494419BE612E007337B3 /* Project object */;
+}
