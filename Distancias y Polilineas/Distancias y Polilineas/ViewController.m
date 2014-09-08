@@ -31,6 +31,16 @@
     [_mapView addAnnotations:[NSArray arrayWithObjects:poliPoint, casaPoint, nil]];
     
 }
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    MKCoordinateRegion region;
+    region.center.latitude =6.2135973;
+    region.center.longitude =-75.5728505;
+    region.span.latitudeDelta=0.02;
+    region.span.longitudeDelta = 0.02;
+    [_mapView setRegion:region];
+
+}
 
 - (void)didReceiveMemoryWarning
 {
