@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BAFECF19C1140E00CE3FA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BAFECE19C1140E00CE3FA9 /* main.m */; };
+		F8BAFED219C1140E00CE3FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BAFED119C1140E00CE3FA9 /* AppDelegate.m */; };
+		F8BAFED519C1140E00CE3FA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BAFED419C1140E00CE3FA9 /* ViewController.m */; };
+		F8BAFED819C1140E00CE3FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFED619C1140E00CE3FA9 /* Main.storyboard */; };
+		F8BAFEDA19C1140E00CE3FA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFED919C1140E00CE3FA9 /* Images.xcassets */; };
+		F8BAFEDD19C1140E00CE3FA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFEDB19C1140E00CE3FA9 /* LaunchScreen.xib */; };
+		F8BAFEE919C1140E00CE3FA9 /* GestosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BAFEE819C1140E00CE3FA9 /* GestosTests.m */; };
+		F8BAFEF619C1141D00CE3FA9 /* chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFEF219C1141D00CE3FA9 /* chomp.wav */; };
+		F8BAFEF719C1141D00CE3FA9 /* hehehe1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFEF319C1141D00CE3FA9 /* hehehe1.wav */; };
+		F8BAFEF819C1141D00CE3FA9 /* monkey_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFEF419C1141D00CE3FA9 /* monkey_1.png */; };
+		F8BAFEF919C1141D00CE3FA9 /* object_bananabunch.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BAFEF519C1141D00CE3FA9 /* object_bananabunch.png */; };
+		F8BAFEFB19C115F400CE3FA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BAFEFA19C115F400CE3FA9 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BAFEE319C1140E00CE3FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BAFEC119C1140E00CE3FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BAFEC819C1140E00CE3FA9;
+			remoteInfo = Gestos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8BAFEC919C1140E00CE3FA9 /* Gestos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BAFECD19C1140E00CE3FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BAFECE19C1140E00CE3FA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8BAFED019C1140E00CE3FA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8BAFED119C1140E00CE3FA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8BAFED319C1140E00CE3FA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8BAFED419C1140E00CE3FA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8BAFED719C1140E00CE3FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8BAFED919C1140E00CE3FA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8BAFEDC19C1140E00CE3FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8BAFEE219C1140E00CE3FA9 /* GestosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BAFEE719C1140E00CE3FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BAFEE819C1140E00CE3FA9 /* GestosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestosTests.m; sourceTree = "<group>"; };
+		F8BAFEF219C1141D00CE3FA9 /* chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chomp.wav; sourceTree = "<group>"; };
+		F8BAFEF319C1141D00CE3FA9 /* hehehe1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hehehe1.wav; sourceTree = "<group>"; };
+		F8BAFEF419C1141D00CE3FA9 /* monkey_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey_1.png; sourceTree = "<group>"; };
+		F8BAFEF519C1141D00CE3FA9 /* object_bananabunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_bananabunch.png; sourceTree = "<group>"; };
+		F8BAFEFA19C115F400CE3FA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BAFEC619C1140E00CE3FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BAFEFB19C115F400CE3FA9 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BAFEDF19C1140E00CE3FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BAFEC019C1140E00CE3FA9 = {
+			isa = PBXGroup;
+			children = (
+				F8BAFEFA19C115F400CE3FA9 /* AVFoundation.framework */,
+				F8BAFEF219C1141D00CE3FA9 /* chomp.wav */,
+				F8BAFEF319C1141D00CE3FA9 /* hehehe1.wav */,
+				F8BAFEF419C1141D00CE3FA9 /* monkey_1.png */,
+				F8BAFEF519C1141D00CE3FA9 /* object_bananabunch.png */,
+				F8BAFECB19C1140E00CE3FA9 /* Gestos */,
+				F8BAFEE519C1140E00CE3FA9 /* GestosTests */,
+				F8BAFECA19C1140E00CE3FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BAFECA19C1140E00CE3FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BAFEC919C1140E00CE3FA9 /* Gestos.app */,
+				F8BAFEE219C1140E00CE3FA9 /* GestosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BAFECB19C1140E00CE3FA9 /* Gestos */ = {
+			isa = PBXGroup;
+			children = (
+				F8BAFED019C1140E00CE3FA9 /* AppDelegate.h */,
+				F8BAFED119C1140E00CE3FA9 /* AppDelegate.m */,
+				F8BAFED319C1140E00CE3FA9 /* ViewController.h */,
+				F8BAFED419C1140E00CE3FA9 /* ViewController.m */,
+				F8BAFED619C1140E00CE3FA9 /* Main.storyboard */,
+				F8BAFED919C1140E00CE3FA9 /* Images.xcassets */,
+				F8BAFEDB19C1140E00CE3FA9 /* LaunchScreen.xib */,
+				F8BAFECC19C1140E00CE3FA9 /* Supporting Files */,
+			);
+			path = Gestos;
+			sourceTree = "<group>";
+		};
+		F8BAFECC19C1140E00CE3FA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BAFECD19C1140E00CE3FA9 /* Info.plist */,
+				F8BAFECE19C1140E00CE3FA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8BAFEE519C1140E00CE3FA9 /* GestosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BAFEE819C1140E00CE3FA9 /* GestosTests.m */,
+				F8BAFEE619C1140E00CE3FA9 /* Supporting Files */,
+			);
+			path = GestosTests;
+			sourceTree = "<group>";
+		};
+		F8BAFEE619C1140E00CE3FA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BAFEE719C1140E00CE3FA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BAFEC819C1140E00CE3FA9 /* Gestos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BAFEEC19C1140E00CE3FA9 /* Build configuration list for PBXNativeTarget "Gestos" */;
+			buildPhases = (
+				F8BAFEC519C1140E00CE3FA9 /* Sources */,
+				F8BAFEC619C1140E00CE3FA9 /* Frameworks */,
+				F8BAFEC719C1140E00CE3FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gestos;
+			productName = Gestos;
+			productReference = F8BAFEC919C1140E00CE3FA9 /* Gestos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BAFEE119C1140E00CE3FA9 /* GestosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BAFEEF19C1140E00CE3FA9 /* Build configuration list for PBXNativeTarget "GestosTests" */;
+			buildPhases = (
+				F8BAFEDE19C1140E00CE3FA9 /* Sources */,
+				F8BAFEDF19C1140E00CE3FA9 /* Frameworks */,
+				F8BAFEE019C1140E00CE3FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BAFEE419C1140E00CE3FA9 /* PBXTargetDependency */,
+			);
+			name = GestosTests;
+			productName = GestosTests;
+			productReference = F8BAFEE219C1140E00CE3FA9 /* GestosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BAFEC119C1140E00CE3FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F8BAFEC819C1140E00CE3FA9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F8BAFEE119C1140E00CE3FA9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F8BAFEC819C1140E00CE3FA9;
+					};
+				};
+			};
+			buildConfigurationList = F8BAFEC419C1140E00CE3FA9 /* Build configuration list for PBXProject "Gestos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8BAFEC019C1140E00CE3FA9;
+			productRefGroup = F8BAFECA19C1140E00CE3FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BAFEC819C1140E00CE3FA9 /* Gestos */,
+				F8BAFEE119C1140E00CE3FA9 /* GestosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BAFEC719C1140E00CE3FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BAFEF619C1141D00CE3FA9 /* chomp.wav in Resources */,
+				F8BAFED819C1140E00CE3FA9 /* Main.storyboard in Resources */,
+				F8BAFEDD19C1140E00CE3FA9 /* LaunchScreen.xib in Resources */,
+				F8BAFEDA19C1140E00CE3FA9 /* Images.xcassets in Resources */,
+				F8BAFEF819C1141D00CE3FA9 /* monkey_1.png in Resources */,
+				F8BAFEF719C1141D00CE3FA9 /* hehehe1.wav in Resources */,
+				F8BAFEF919C1141D00CE3FA9 /* object_bananabunch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BAFEE019C1140E00CE3FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BAFEC519C1140E00CE3FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BAFED519C1140E00CE3FA9 /* ViewController.m in Sources */,
+				F8BAFED219C1140E00CE3FA9 /* AppDelegate.m in Sources */,
+				F8BAFECF19C1140E00CE3FA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BAFEDE19C1140E00CE3FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BAFEE919C1140E00CE3FA9 /* GestosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BAFEE419C1140E00CE3FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BAFEC819C1140E00CE3FA9 /* Gestos */;
+			targetProxy = F8BAFEE319C1140E00CE3FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8BAFED619C1140E00CE3FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BAFED719C1140E00CE3FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8BAFEDB19C1140E00CE3FA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BAFEDC19C1140E00CE3FA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8BAFEEA19C1140E00CE3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8BAFEEB19C1140E00CE3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BAFEED19C1140E00CE3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gestos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8BAFEEE19C1140E00CE3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gestos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8BAFEF019C1140E00CE3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestos.app/Gestos";
+			};
+			name = Debug;
+		};
+		F8BAFEF119C1140E00CE3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestos.app/Gestos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BAFEC419C1140E00CE3FA9 /* Build configuration list for PBXProject "Gestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BAFEEA19C1140E00CE3FA9 /* Debug */,
+				F8BAFEEB19C1140E00CE3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BAFEEC19C1140E00CE3FA9 /* Build configuration list for PBXNativeTarget "Gestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BAFEED19C1140E00CE3FA9 /* Debug */,
+				F8BAFEEE19C1140E00CE3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8BAFEEF19C1140E00CE3FA9 /* Build configuration list for PBXNativeTarget "GestosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BAFEF019C1140E00CE3FA9 /* Debug */,
+				F8BAFEF119C1140E00CE3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BAFEC119C1140E00CE3FA9 /* Project object */;
+}
